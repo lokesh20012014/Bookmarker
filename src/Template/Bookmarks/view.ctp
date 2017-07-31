@@ -21,10 +21,6 @@
     <h3><?= h($bookmark->title) ?></h3>
     <table class="vertical-table">
         <tr>
-            <th scope="row"><?= __('User') ?></th>
-            <td><?= $bookmark->has('user') ? $this->Html->link($bookmark->user->id, ['controller' => 'Users', 'action' => 'view', $bookmark->user->id]) : '' ?></td>
-        </tr>
-        <tr>
             <th scope="row"><?= __('Title') ?></th>
             <td><?= h($bookmark->title) ?></td>
         </tr>
