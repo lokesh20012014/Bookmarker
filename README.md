@@ -28,3 +28,16 @@ bin/cake server -p 8765
 
 Then visit `http://localhost:8765` to see the welcome page.
 
+
+#Bookmarker Implementation
+
+This is a simple Bookmark Application using CakePHP.
+
+1. Created a new Database in MAMP
+2. Configured the Database
+3. Generated the Model/View/Controller Code using 'bin/cake Bake'
+4. Created User Login/logout Page and hashed the password.
+5. View Bookmarks based on specific tag(Ex. Cooking/Romance).
+6. Enabled Registration and restricted access to bookmarks based on user credentials.
+7. User who logs using his credentials can only access his/her Bookmarks. User can edit/delete only his bookmarks.
+
